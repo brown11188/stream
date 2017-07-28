@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="fb689be3-41cb-4c7b-bf77-fa2e236ec5eb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8090/VideoStream?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VideoStream.xsd" MetadataType="Schema" ID="64e56b5d-ce27-4680-9335-de076e1b8ad7" SourceId="1" SourceUrl="http://localhost:8090/VideoStream?xsd=xsd2" />
+    <MetadataFile FileName="VideoStream1.xsd" MetadataType="Schema" ID="a2effcfe-dcf5-4973-8c11-41e05c0e2ce0" SourceId="1" SourceUrl="http://localhost:8090/VideoStream?xsd=xsd3" />
+    <MetadataFile FileName="VideoStream2.xsd" MetadataType="Schema" ID="42435d12-6747-40e9-8956-382fc6e0c829" SourceId="1" SourceUrl="http://localhost:8090/VideoStream?xsd=xsd0" />
+    <MetadataFile FileName="VideoStream3.xsd" MetadataType="Schema" ID="20d74d62-ac08-4fba-a767-87e73d55f6d7" SourceId="1" SourceUrl="http://localhost:8090/VideoStream?xsd=xsd1" />
+    <MetadataFile FileName="VideoStream.wsdl" MetadataType="Wsdl" ID="544c7112-af45-43d0-97b2-c09a0c684c15" SourceId="1" SourceUrl="http://localhost:8090/VideoStream?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
